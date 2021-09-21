@@ -14,8 +14,8 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 
 
 <p>
-<img src="images/Model_Arch.png" style="float: left; width=40%; margin-right: 5%; margin-bottom: 0.5em;">
-<img src="images/Reco.png" style="float: left;  width=45%; margin-rigt: 5%; margin-bottom: 0.5em;">
+<img src="images/Model_Arch.png" style="float: left; width: 40%; margin-right: 5%; margin-bottom: 0.5em;">
+<img src="images/Reco.png" style="float: left;  width: 45%; margin-rigt: 5%; margin-bottom: 0.5em;">
   <br> (a) Neural Emebedding based Collaborative Filtering model (b) Generations of Recommenders  
 <p style="clear: both;">
    
