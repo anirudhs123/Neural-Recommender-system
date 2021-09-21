@@ -10,6 +10,10 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 
 3. Neural embedding is one of the most suitable ways for handling Sparse Data. Given a set of users and items. We can learn a supervised algorithm which Provides us with rating of the item using embedding representation of User and the item.Machine learning approaches differ from this approach from the fact that , there we will have to have extracted features prior to executing a model
 
+4. In case of Bipartite Graph based Recommenders, the items are considered as nodes and are given edge weights depending on their co-occurrence frequency.We make use of an Bipartite graph to model the above series of connections. Then we use Louvain modularity technique to split the items into different communities.The number of communities obtained is dependent on the resolution used. Larger the value of resolution , lesser is the number of communities formed.This kind of partitions into communities then used like an association recommender to recommend items to users given another  item from that community is already predicted. Depending on the number of recommendations required for each user, we can modify the resolution to cater to that. 
+
+ 
+
 <p align="center">
    <img src="../gh-pages/assets/images/gesture_sample.jpg" width=400 height=300>
 </p>
