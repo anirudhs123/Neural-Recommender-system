@@ -11,7 +11,7 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 ## Key Contributions
 
 1. The Neural Embedding based recommender was built for handling sparse input data. 
-2. The Bi-Partite graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities among the items.
+2. The Bi-Partite graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities among the items. The Bi-partite graph based recommenders were built using Louivan community partition and Apriory algorithms.
 3. Item-Item association recommender was built based on Apriori algorithm
 
 ## People
