@@ -4,8 +4,9 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 
 # Brief about each Recommender in Piepline
 
-1. The pipeline includes a Co-clustering algorithm based recommender built using the Scikit-Surprise package. There were options to use either cosine similarity or Pearson similarity based collaborative filtering recommender, both of which were built using the Turicreate package. 
-2. The piepline also includes a simple popularity based recommender which takes into account the transaction frequency of each item. We then predict the Top-k in terms of frequency of occurrence as recommendations.
+1. The piepline includes a simple popularity based recommender which takes into account the transaction frequency of each item. We then predict the Top-k in terms of frequency of occurrence as recommendations. 
+2. The pipeline includes a Co-clustering algorithm based recommender built using the Scikit-Surprise package. There were options to use either cosine similarity or Pearson similarity based collaborative filtering recommender, both of which were built using the Turicreate package. 
+3. 
 
 <p align="center">
    <img src="../gh-pages/assets/images/gesture_sample.jpg" width=400 height=300>
