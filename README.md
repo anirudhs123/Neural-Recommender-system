@@ -13,11 +13,12 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 4. In case of Bipartite Graph based Recommenders, the items are considered as nodes and are given edge weights depending on their co-occurrence frequency. We use Louvain modularity technique to split the items into different communities.The number of communities obtained is dependent on the resolution used. Depending on the number of recommendations required for each user, we can modify the resolution to cater to that. 
 
 
-<p align="center">
-   <img src="images/Model_Arch.png" width=500 height=400>
-                Fig 1: Proposed Model structure: Neural Emebedding based Collaborative Filtering
-</p>
-
+<p>
+<img src="images/Model_Arcg.png" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="images/Reco.png" style="float: left; width: 35%; margin-right: 1%; margin-bottom: 0.5em;">
+(a) Neural Emebedding based Collaborative Filtering model (b) Generations of Recommenders  
+<p style="clear: both;">
+   
 
 ## Key Contributions
 
