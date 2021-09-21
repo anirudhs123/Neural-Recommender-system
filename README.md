@@ -1,20 +1,18 @@
 # Neural-Reccomender-system
 
-Built a whole pipeline of recommender systems comprising of Popularity  recommender, KNN based Clustering recommender, Item-Item association based recommender, Bi-Partite graph based association recommender, Neural Graph based Collaborative Filtering and Neural Embedding based recommender. The mdels have been used on three different datasets namely Amazon Book Dataset, Movie Lens Dataset and a supermarket user-item intercation dataset.
-
-
-IndicSwipe demonstrates high decoding accuracies on both tasks varying from 70% to 95% across the 7 languages.
+Built a whole pipeline of recommender systems comprising of Popularity based recommender, KNN similarity based Clustering recommender, Item-Item association based recommender, Bi-Partite graph based association recommender, Neural Graph based Collaborative Filtering and Neural Embedding based Collaborative filtering. These mdoels were built to work on three different datasets namely Amazon Book Dataset, Movie Lens Dataset and a Supermarket user-item interaction dataset.
 
 <p align="center">
    <img src="../gh-pages/assets/images/gesture_sample.jpg" width=400 height=300>
 </p>
 
+
+
 ## Key Contributions
 
-1. A Gesture Path Decoding model that uses a multi-headed Transformer along with LSTM layers for coordinate sequence encoding and a character-level LSTM model for character sequence decoding.
-2. A Contrastive Transliteration correction model that uses position-aware character embeddings to measure word proximities and correct spellings of transliterated words.
-3. Two datasets of simulated word traces for supporting work on gesture typing for Indic language keyboards including low resource languages like Telugu and Kannada.
-4. The accuracies of the proposed models vary from 70 to 89% for English-to-Indic decoding and 86-95% for Indic-to-Indic decoding across the 7 languages used for the study.
+1. The Neural Embedding based recommender was built for handling sparse input data. 
+2. The Bi-Partite graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities among the items.
+3. Item-Item association recommender was built based on Apriori algorithm
 
 ## People
 
