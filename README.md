@@ -14,7 +14,7 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 
 
 <p align="center">
-   <img src="images/Model_arch.jpg" width=400 height=300>
+   <img src="images/Model_arch.png" width=400 height=300>
 </p>
 
 
