@@ -15,6 +15,7 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 
 <p align="center">
    <img src="images/Model_Arch.png" width=500 height=400>
+   Proposed Model structure: Neural Emebedding based Collaborative Filtering
 </p>
 
 
