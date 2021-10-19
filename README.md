@@ -1,6 +1,4 @@
-# Neural-Reccomender-system
-
-Built a whole pipeline of recommender systems comprising of Popularity based recommender, KNN similarity based Clustering recommender, Item-Item association based recommender, Bi-Partite graph based association recommender, Neural Graph based Collaborative Filtering and Neural Embedding based Collaborative filtering. These models were built to work on three different datasets namely Amazon Book Dataset, Movie Lens Dataset and a Supermarket user-item interaction dataset.
+In this work , I built a whole pipeline of recommender systems comprising of Popularity based recommender, KNN similarity based Clustering recommender, Item-Item association based recommender, Bi-Partite graph based association recommender, Neural Graph based Collaborative Filtering and Neural Embedding based Collaborative filtering. These models were built to work on three different datasets namely Amazon Book Dataset, Movie Lens Dataset and a Supermarket user-item interaction dataset.
 
 # Brief about few types of Recommenders from the Piepline
 
@@ -20,7 +18,7 @@ Built a whole pipeline of recommender systems comprising of Popularity based rec
 <p style="clear: both;">
    
 
-## Key Contributions
+# Key Contributions
 
 1. Machine algorithms used for traditional collaborative filtering is not very efficient in handling sparse data.The Neural Embedding based recommender was built specially for handling sparse input data. We observe from the results that Matrix Factorization methods are being outperformed by the Embedding based Recommenders.
 2. The Bi-Partite graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities among the items. The Bi-partite graph based recommenders were built using Louivan community partition and Apriory algorithms.
